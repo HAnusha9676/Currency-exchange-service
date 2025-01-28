@@ -8,6 +8,7 @@ when client sends the request ,Api Gateway retrievs the Service information from
 Otherwise, it returns an errror response to the client
 
       Depenndencies added to the Currency-service and Currency-Exchange
+      
 1)Spring web
 2)Spring cloud-netflix-eureka-client
 3)springboot-dev-tools
@@ -16,11 +17,16 @@ Otherwise, it returns an errror response to the client
 6)Spring-boot-starter-JPA
 7)Spring-cloud-starter-open-feign
 8)Spring-boot-starter-actuator
+
+
           Dependencies added to the  Service-registry(Eureka)
+          
 1)Spring web
 2)Spring cloud-netflix-eureka-server
 3)Spring-boot-dev-tools
+
         Dependencies added to the api gateway
+        
 1)Spring web
 2)Discovery client
 3)gateway
