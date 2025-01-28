@@ -37,11 +37,19 @@ remove devtools and add the Loadbalancer
 
 Currency-Exchange URL
 ====>  http://localhost:8003/api/v1/from/USD/to/INR
+
 o/p: {"id":10001,"fromCurrency":"USD","toCurrency":"INR","conversionMultiple":65.0}
 
 Currency-Service URL:
 ====>   http://localhost:8001/api/v1/from/USD/to/INR/quantity/10
+
 o/p: {"id":1,"fromCurrency":"USD","toCurrency":"INR","conversionMultiple":65.0,"totalCalculatedAmount":650.0,"quantity":10,"locatDateTime":"2025-01-28T10:48:12.8352906"}
+
+API-GATEWAY URL:  http://localhost:7777/api/v1/from/USD/to/INR/quantity/19
+
+URL:  http://localhost:7777/api/v1/from/USD/to/INR
+
+URL:  http://localhost:7777/actuator
 
 Actuator URL : http://localhost:8001/actuator
 o/p:
