@@ -52,8 +52,8 @@ URL:  http://localhost:7777/api/v1/from/USD/to/INR
 URL:  http://localhost:7777/actuator
 
 Actuator URL : http://localhost:8001/actuator
-o/p:
-{"_links":{"self":{"href":"http://localhost:8001/actuator","templated":false},
+
+o/p: {"_links":{"self":{"href":"http://localhost:8001/actuator","templated":false},
 "circuitbreakers":{"href":"http://localhost:8001/actuator/circuitbreakers","templated":false},
 "circuitbreakers-name":{"href":"http://localhost:8001/actuator/circuitbreakers/{name}","templated":true},
 "circuitbreakerevents-name-eventType":{"href":"http://localhost:8001/actuator/circuitbreakerevents/{name}/{eventType}","templated":true},
